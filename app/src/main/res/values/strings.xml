@@ -1,6 +1,12 @@
 <resources>
     <string name="app_name">LangWish</string>
+
     <string name="menu_title_text">Welcome to LangWish!</string>
     <string name="menu_button_start_text">Revise</string>
     <string name="menu_button_load_text">Create or load decks</string>
+
+    <string name="deck_loader_title_text">Create or load a deck</string>
+    <string name="deck_loader_button_create_deck">Create a new deck</string>
+    <string name="deck_loader_button_edit_deck">Edit a deck</string>
+    <string name="deck_loader_button_load_deck">Load deck from file</string>
 </resources>

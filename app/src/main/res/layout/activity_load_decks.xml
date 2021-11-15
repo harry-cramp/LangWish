@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:paddingVertical="20dp"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/deck_loader_title_text" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingVertical="80dp"
+        app:srcCompat="@drawable/ic_launcher_background" />
+
+    <Button
+        android:id="@+id/deck_loader_button_create_deck"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="10dp"
+        android:layout_marginHorizontal="40dp"
+        android:text="@string/deck_loader_button_create_deck" />
+
+    <Button
+        android:id="@+id/deck_loader_button_edit_deck"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="10dp"
+        android:layout_marginHorizontal="40dp"
+        android:text="@string/deck_loader_button_edit_deck" />
+
+    <Button
+        android:id="@+id/deck_loader_button_load_deck"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="10dp"
+        android:layout_marginHorizontal="40dp"
+        android:text="@string/deck_loader_button_load_deck" />
+
+</LinearLayout>
