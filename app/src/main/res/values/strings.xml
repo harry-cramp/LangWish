@@ -9,4 +9,10 @@
     <string name="deck_loader_button_create_deck">Create a new deck</string>
     <string name="deck_loader_button_edit_deck">Edit a deck</string>
     <string name="deck_loader_button_load_deck">Load deck from file</string>
+
+    <string name="create_deck_fragment_title_text">Create a new deck</string>
+    <string name="create_deck_fragment_accept_button_text">Create</string>
+    <string name="create_deck_fragment_name_input">Deck name</string>
+
+    <string name="misc_cancel">cancel</string>
 </resources>
